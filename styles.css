@@ -1,0 +1,40 @@
+body{
+  background-image: url("images/wall.jpg");
+  background-size: cover;
+}
+.font{
+  font-size: 3rem;
+}
+
+.adjust{
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+
+body > table{
+  width: 80%;
+}
+table{
+  border-collapse: collapse;
+}
+table.list{
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd),table.list thead>tr{
+  background-color: #dddddd;
+}
+tr:nth-child(even),table.list thead>tr{
+  background-color: #d2c6b2;
+}
+
+form div.form-action-buttons{
+  text-align: right;
+}
